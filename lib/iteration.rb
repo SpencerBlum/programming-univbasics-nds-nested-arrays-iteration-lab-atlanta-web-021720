@@ -42,7 +42,7 @@ total = 0
   while i < src.length do
    num1 = scr[i][0]
    num2 = scr[i][1]
-   if (num1 % 2) == 0 && (num2 % 2) == 0
+   if (num1 % 2 == 0) && (num2 % 2 == 0)
      total+= num1+num2
    end
    i+=1
